@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"
+      integrity="sha512-v3ygConQmvH0QehvQa6gSvTE2VdBZ6wkLOlmK7Mcy2mZ0ZF9saNbbk19QeaoTHdWIEiTlWmrwAL4hS8ElnGFbA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script>
+      "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js";
+    </script> -->
+    <title>US Population Chart</title>
+  </head>
+  <body>
+    <div class="chart-container">
+      <div class="chart-content">
+        <h2>A Bar-Chart Representation from an API</h2>
+        <canvas id="bar-chart"></canvas>
+      </div>
+
+      <div class="chart-content">
+        <h2>A Pie-Chart Representation of Data</h2>
+        <canvas id="pie-chart"></canvas>
+      </div>
+
+      <div class="chart-content">
+        <h2>A Doughnut Representation of Data</h2>
+        <canvas id="doughnut"></canvas>
+      </div>
+
+      <div class="chart-content">
+        <h2>A Multiple Line-Chart Representation of Data</h2>
+        <canvas id="line-chart"></canvas>
+      </div>
+
+      <div class="chart-content">
+        <h2>A Linear Graph Representation of Data</h2>
+        <canvas id="linear-graph"></canvas>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

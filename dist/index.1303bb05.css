@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.chart-container {
+  width: 50%;
+  margin: auto;
+}
+
+.chart-content {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.chart-content h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.chart-content canvas {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */

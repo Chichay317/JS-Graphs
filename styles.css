@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.chart-container {
+  margin: auto;
+  width: 50%;
+}
+
+.chart-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-content h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chart-content canvas {
+  margin-bottom: 30px;
+  width: 100%;
+}
